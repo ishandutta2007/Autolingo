@@ -11,7 +11,7 @@ kris brethowe
 5. Drag the CRX file from the temporary location into the Extensions window
 6. Click Add extension to approve any permissions or data
 
-# Keyworks
+# Search Keywords
 - How to complete duolingo on edge or chrome
 - How to skip dulingo lession
 - How to auto-complete dulingo lession
