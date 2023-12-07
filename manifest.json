@@ -1,0 +1,41 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Autolingo",
+    "version": "2022.03.18",
+    "manifest_version": 3,
+    "description": "Automatically completes Duolingo lessons so you don't have to!",
+    "homepage_url": "https://chrome.google.com/webstore/detail/autolingo/jppnahnlneednhaefhbfgpamgbecpfdd",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "*://*.duolingo.com/*"
+        ],
+        "js": [
+            "content_scripts/init.js"
+        ],
+        "all_frames": true
+    }],
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "60": "images/icon-60.png",
+        "128": "images/icon-128.png",
+        "256": "images/icon-256.png"
+    },
+    "action": {
+        "default_title": "Autolingo",
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [{
+        "resources": ["*"],
+        "matches": ["<all_urls>"]
+    }]
+}

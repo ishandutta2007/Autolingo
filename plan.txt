@@ -1,0 +1,11 @@
+~~ TODO LIST ~~
+
+-----------------
+-- INJECTED.js --
+-----------------
+[ ] Add shortcut for completing the current challenge (CTRL+SHIFT+D)?
+
+--------------
+-- POPUP.js --
+--------------
+[ ] Synopsis of your current XP or rank in the league or whatever
