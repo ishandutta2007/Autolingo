@@ -4,7 +4,7 @@ Automatically completes Duolingo lessons so you don't have to
 kris brethowe
 
 # Install
-1. Download [crx]()
+1. Download the [crx file](https://github.com/ishandutta2007/Autolingo/blob/main/Autolingo_extension_2022_3_18_0.crx)
 2. Open Chrome
 3. Click the Chrome menu icon
 4. Enable the Developer mode checkbox in the upper right corner
