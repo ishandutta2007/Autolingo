@@ -1,5 +1,5 @@
 # Autolingo
-Automatically completes Duolingo lessons so you don't have to
+Automatically completes Duolingo lessons for you
 # Credits
 kris brethowe
 
