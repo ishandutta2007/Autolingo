@@ -17,3 +17,5 @@ kris brethowe
 - How to auto-complete dulingo lession
 - How to easily complete dulingo lession
   
+# Support
+- Just Star and Follow (nothing more expected)
